@@ -1,0 +1,165 @@
+body {
+    background-color: #cc70e4;
+    font-family: bradley hand, cursive;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  header {
+    background: #7C059A;
+    color: #fff;
+    padding: 25px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 3.0rem;
+  }
+  
+  header p {
+    margin: 5px 0;
+    font-size: 1.5rem;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1rem;
+  }
+  
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Circular profile image */
+.profile-image {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+  section {
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  #skills ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #skills ul li {
+    margin: 5px 0;
+    font-size: 1.1rem;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background: #948D9B;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+
+  #intro {
+    font-size: 1.2rem;
+    animation: fadeIn 2s ease-in;
+  }
+
+  #contact {
+    font-size: 1rem;
+    animation: fadeIn 2s ease-in;
+  }
+  /* Education Section Table */
+  #education {
+  padding: 20px;
+  text-align: center;
+  animation: fadeIn 2s ease-in;
+}
+
+#education h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table th {
+  background-color: #D387AB;
+  font-weight: bold;
+}
+
+table tr:nth-child(even) {
+  background-color: #FEC9F1;
+}
+
+table tr:nth-child(odd) {
+  background-color: #E899DC;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
+
+a:hover {
+  color: #EFC69B;
+  transition: color 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#about {
+  animation: fadeIn 2s ease-in;
+}
+
+
